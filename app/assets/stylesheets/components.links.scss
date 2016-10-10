@@ -1,0 +1,10 @@
+@import "mixins/components.links";
+
+.c-link {
+  @include link;
+}
+
+.c-link--primary { @include link--primary; }
+.c-link--secondary { @include link--secondary; }
+.c-link--success { @include link--success; }
+.c-link--error { @include link--error; }

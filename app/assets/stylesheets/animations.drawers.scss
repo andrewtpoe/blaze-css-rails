@@ -1,0 +1,13 @@
+@import "mixins/animations.drawers";
+
+.a-drawer {
+  @include drawer;
+}
+
+.a-drawer--slow {
+  @include drawer--slow;
+}
+
+.a-drawer--fast {
+  @include drawer--fast;
+}

@@ -1,0 +1,15 @@
+@import "mixins/animations.overlays";
+
+@include overlay-keyframes;
+
+.a-overlay {
+  @include overlay;
+}
+
+.a-overlay--slow {
+  @include overlay--slow;
+}
+
+.a-overlay--fast {
+  @include overlay--fast;
+}
