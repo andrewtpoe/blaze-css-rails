@@ -1,0 +1,3 @@
+[submodule "vendor/blaze-css"]
+	path = vendor/blaze-css
+	url = git@github.com:BlazeCSS/Blaze.git
