@@ -1,9 +1,0 @@
-@import "mixins/components.addresses";
-
-.c-address {
-  @include address;
-}
-
-.c-address__heading {
-  @include address__heading;
-}

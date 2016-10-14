@@ -1,6 +1,0 @@
-@import "mixins/objects.containers";
-
-.o-container {
-  @include container;
-  @include container-sizes;
-}
