@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = BlazeCss::Rails::VERSION
 
   gem.add_dependency "railties", ">= 3.2", "< 5.1"
-  gem.add_dependency "sass-rails"
+  gem.add_development_dependency "sass-rails", ">= 4.0", "< 6.0"
 
   gem.add_development_dependency "activesupport"
 

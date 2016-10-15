@@ -1,0 +1,10 @@
+@import "mixins/settings.global";
+
+.o-container {
+  margin: auto;
+  @each $size, $width in $screen-limits {
+    &--#{$size} {
+      max-width: $width;
+    }
+  }
+}
