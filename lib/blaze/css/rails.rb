@@ -1,2 +1,10 @@
 require "blaze/css/rails/version"
-require "blaze/css/rails/engine" if defined?(::Rails)
+
+module Blaze
+  module Css
+    module Rails
+      class Engine < ::Rails::Engine
+      end
+    end
+  end
+end

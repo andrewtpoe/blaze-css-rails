@@ -39,4 +39,4 @@ If you prefer Sass (like me) you can instead add `@import 'blaze'` into your imp
 
 As it is bundled, this gem includes the default settings in Blaze CSS. Customizing these settings is extremely simple though, just import a file containing your custom variables before importing 'blaze'.
 
-The settings available for you to over-ride can be found [here](https://github.com/andrewtpoe/blaze-css-rails/tree/master/vendor/assets/stylesheets/mixins/_settings.global.scss).
+The settings available for you to over-ride can be found [here](https://github.com/BlazeCSS/Blaze/blob/master/scss/mixins/_settings.global.scss).
