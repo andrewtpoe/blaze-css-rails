@@ -5,7 +5,7 @@ Blaze Css Rails gemifies the outstanding [Blaze CSS Framework](http://blazecss.c
   - Instantly install Blaze CSS in the Rails asset pipeline.
   - Give you full power to customize your theme directly within the asset pipeline.
 
-The currently bundled version of Blaze CSS is v3.0.0
+In order to simplify things, this gem's version now aligns with the bundled version of Blaze CSS. Any updates to this gem will be tracked in the fourth position of the version number (ie. `3.1.0.x`).
 
 ## Installation
 
@@ -40,3 +40,5 @@ If you prefer Sass (like me) you can instead add `@import 'blaze'` into your imp
 As it is bundled, this gem includes the default settings in Blaze CSS. Customizing these settings is extremely simple though, just import a file containing your custom variables before importing 'blaze'.
 
 The settings available for you to over-ride can be found [here](https://github.com/BlazeCSS/Blaze/blob/master/scss/mixins/_settings.global.scss).
+
+Additionally, I've found it useful to extend or modify certain classes in my own applications. This can easily be done by importing your customizations after you import 'blaze'.
